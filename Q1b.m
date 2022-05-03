@@ -1,9 +1,9 @@
 
 t = linspace(-5,4,1000);
 
-y1 = -1*exp(-1.*t);
-y2 = 2*exp(2.*t)-exp(-1.*t);
-y3 = -2*exp(2.*t)-exp(-1.*t);
+y1 = -1*exp(-1*t);
+y2 = 2*exp(2*t)-exp(-1*t);
+y3 = -2*exp(2*t)-exp(-1*t);
 
 hold on
 plot(t,y1)
